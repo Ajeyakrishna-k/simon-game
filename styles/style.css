@@ -1,0 +1,76 @@
+body{
+  background-color: #2C3333;
+  color: #F5F2E7;
+}
+h1{
+  font-family: 'Press Start 2P', cursive;
+font-size: 3rem;
+margin: 5%;
+color: #FEF2BF;
+}
+.main-heading{
+  text-align: center;
+}
+
+.game-tiles-top{
+  padding-bottom: 1rem;
+  /* margin-left: 30%; */
+}
+.game-tiles-bottom {
+  padding-top: 1rem;
+  /* margin-left: 30%; */
+
+}
+
+.game-tile-area{
+  margin-top: 7%;
+
+}
+
+.game-tiles-hidden{
+  visibility: hidden;
+}
+
+.game-tiles:hover{
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+              inset 5px 5px 8px rgba(0,0,0,0.5);
+}
+
+.game-tiles{
+  margin-right: 1rem;
+  margin-left: 1rem;
+  display: inline-block;
+  width: 10em;
+  height: 10em;
+  border: 10px solid #C3DBD9;
+  border-radius: 30%;
+  /* border-radius: 10px; */
+}
+.game-tiles-clicked{
+  border: 10px solid #7900FF;
+}
+
+.game-tiles-clicked-default{
+  border: 10px solid #2C3333;
+}
+
+.game-tiles-clicked-correct{
+  border: 10px solid green;
+
+}
+.game-tiles-clicked-wrong{
+  border: 10px solid red;
+}
+
+#tile-1{
+  background-color: #2D31FA;
+}
+#tile-2{
+  background-color: #E83A14;
+}
+#tile-3{
+  background-color: orange;
+}
+#tile-4{
+  background-color: #65C18C;
+}
